@@ -24,10 +24,23 @@
   <body ng-app="starter">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+      <ion-header-bar class="bar-assertive">
+        <h1 class="title">Welcome to TODOS app</h1>
       </ion-header-bar>
       <ion-content>
+        <div class="List">
+          <label class="item item-input">
+            <input type="email" placeholder="Email">
+          </label>
+          <label class="item item-input">
+            <input type="password" placeholder="Password">
+          </label>
+        </div>
+        <div class="padding">
+          <button class="button button-block button-positive">
+            Login
+          </button>
+        </div>
       </ion-content>
     </ion-pane>
   </body>
